@@ -1,0 +1,582 @@
+/* Olá belezinha que veio fuxicar meu modelo. Tudo bem com você? Espero muito que sim...*/
+/* Não tem problema vir dar uma olhadinha, mas, POR FAVOR, não dê o famoso ctrl+c e ctrl+v nos codes*/
+/* Se gostou de alguma parte, tudo bem em pegar como base, mas seria bem legal da sua parte pedir diretamente para mim antes*/
+/* Ficarei muito feliz se isso acontecer. Respeite meu trabalho. */
+/* Não copie!!! Você consegue fazer um tão bom quanto (e até melhor) que esse, você é incrível, eu sei disso! */
+/* Thank u ;u; */
+
+/*ESSE STYLE FOI FEITO PELA @JUSTDYOIT PARA @DOGOH*/
+/*Wonder Woman - The power of women*/        
+
+* {
+	font-size: 10px!important;
+}
+
+
+a:link {
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+body::-webkit-scrollbar-thumb:vertical {
+background: #dbb36b;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+background-color:#dbb36b;
+}
+
+body::-webkit-scrollbar {
+width:6px;
+background: #f7f7f7;
+}
+
+.boxMenuDireito .scroll::-webkit-scrollbar:vertical {
+background: #f7f7f7;
+}
+
+.boxMenuDireito .scroll::-webkit-scrollbar-thumb:vertical {
+background: #a7c9c9;
+}
+
+::-webkit-scrollbar {
+width:6px;
+background: #f7f7f7;
+}
+
+body {
+	background: #DFDFDF url() repeat-Y center center;
+}
+
+#fundo {
+	background:url(img/oi.png) no-repeat top, url() repeat-y center, url() repeat-x top center, url() repeat;
+}
+
+fieldset {
+	border: none!important;
+        color: ;
+}
+
+#meio span, #meio span a, .admin, .admin:hover, .ativo, .ativo:hover, .link {
+        color:#d5c7ac;
+}
+
+#base {
+	background: url(img/) no-repeat center top;
+}
+
+#cima #logo {
+        height: 260px;
+	background: url() center top;
+}
+
+#nav {
+	position:relative;
+	background: transparent;
+	margin:-249px 0px 0px 0px;
+}
+
+#nav a {
+       font-family: Arial Narrow, sans-serif!important;
+       color:#000;
+	text-transform: uppercase;
+	border: 1px solid #;
+	left: 0px;
+        position: relative;
+	letter-spacing: 1px;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	position: relative;
+	overflow: hidden;
+}
+
+#nav a:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+
+}
+
+#nav a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+	top: 0px;
+  background: #fff;
+  height: 1px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+#nav a:hover:before, #nav a:focus:before, #nav a:active:before {
+ left: 0;
+  right: 0;
+}
+
+#nav li:first-child a {
+	background-color: #307d76;
+	color: #fff;
+	padding:3px 5px 3px 5px!important;
+	margin-right: 8px;
+}
+
+#nav li:nth-child(2) a {
+	background-color: #d5c7ac;
+	color: #fff;
+	padding:3px 5px 3px 5px!important;
+}
+
+#nav li:nth-child(3) a {
+	background-color: #dbb36b;
+	color: #fff;
+	padding:3px 5px 3px 5px!important;
+}
+
+#nav li:nth-child(4) a, #nav li:nth-child(5) a, #nav li:nth-child(6) a, #nav li:nth-child(7) a, #nav li:nth-child(8) a, #nav li:nth-child(9) a, #nav li:nth-child(10) a, #nav li:nth-child(11) a {
+	padding:3px 5px 3px 5px!important;
+}
+
+#secaoNav  {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 10px!important;
+	background: transparent;
+  border:none;
+}
+
+#secaoNav, #secaoNav a {
+	color: #d5c7ac;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+#baixo {
+	border-top: none;
+	background-color: #EFEFEF;
+	color: #838383;
+}
+
+#baixo a {
+	color: #666666;
+}
+
+
+.boxMenuDireito {
+	color:#fff;
+	background: #dbb36b;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.boxMenuDireito .tituloMenuDireito {
+  color:#fff;
+  font-size:10px;
+	text-align: center;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #dbb36b;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+.boxMenuDireito .tituloMenuDireito:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #377e78;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.boxMenuDireito .tituloMenuDireito:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: #fff;
+}
+.boxMenuDireito .tituloMenuDireito:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.boxMenuDireito .textoMenuDireito{
+	border:none;
+	color: #a7c9c9;
+	background-color: #fcfcfc;
+	border-radius: 0px;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.boxMenuDireito .tituloMenuDireito {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.boxMenuDireito img {
+	border: 3px solid #fff;
+	border-radius: 100%;
+	height: 60px!important;
+	width: auto!important;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.boxMenuDireito img:hover {
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	transform: rotate(45deg);
+}
+
+.boxMenuDireito #divAmigosResultado .boxUsuario a img {
+    height: 47px;
+    width: auto;
+    box-align: center!important;
+    text-align: center!important;
+}
+
+.boxMenuDireito #divGruposResultado .boxUsuario a img {
+    height: 47px;
+    width: auto;
+    box-align: center!important;
+    text-align: center!important;
+}
+
+.textoBg2 {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.divAtividades {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.atividade, .atividade strong {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+h2.tituloPrincipal strong {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+#quote {
+	color: #fff;
+	background-color: #a7c9c9;
+  border: none;
+	border-left: 5px solid #dbb36b;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.atividade .conteudo .texto {
+        letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+        color: #dbb36b;
+}
+
+#divAtividades .texto {
+        letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+h1.tituloPrincipal {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	color: #327c74!important;
+}
+
+.boxConteudo h1 a {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	color: #dbb36b!important;
+}
+
+#boxUsuario {
+	  margin-top: 165px;
+    padding: 0px!important;
+		letter-spacing: 1px;
+		font-family: Calibri!important;
+		font-variant: small-caps!important;
+		font-size: 10px!important;
+		text-transform: lowercase!important;
+}
+
+#boxUsuario .informacoes {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.boxConteudo .titulo, .boxConteudo h1, .boxConteudo h2, .boxConteudo h1 a, .boxConteudo h2 a {
+	color: #dbb36b;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	text-align: left;
+}
+
+.left.avatar {
+	position: relative;
+	bottom: 18px!important;
+}
+
+.left.avatar img {
+	border-radius: 100%;
+}
+
+img#cphTopo_imgUsuarioFoto {
+		position: relative;
+		bottom: 24px;
+}
+
+.boxConteudo .titulo,.boxConteudo h1,.boxConteudo h2{
+	color: #dbb36b;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	text-align: left;
+}
+
+.boxConteudo .textoBg1 {
+        letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.boxConteudo .textoBg2 {
+        letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+.boxConteudo .textoBg1, .boxConteudo tr.textoBg1 td {
+	background-color: transparent;
+        border: none;
+	color: #dbb36b;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	text-align: left;
+}
+
+.boxConteudo .textoBg2, .boxConteudo tr.textoBg2 td {
+	background-color: transparent;
+  border: none;
+	color: #dbb36b;
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	text-align: left;
+}
+
+.boxConteudo .baixo {
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #dbb36b;
+	padding: 5px 3px 5px 3px!important;
+}
+
+#boxUsuario .baixo ul li a {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	color:#d5c7ac!important;
+}
+
+#boxUsuario .baixo ul li a:hover{
+	color:#a6c8c8!important;
+}
+
+
+.textoBg1 span {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+}
+
+a, body {
+	color: #388079;
+}
+
+a:hover {
+    color: #a8c8c7;
+}
+
+#meio input {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+  background-color: #fcfcfc;
+	color: #3b8078;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+#meio textarea {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	background-color: #fcfcfc;
+	color: #3b8078;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+#nav .btn {
+    color: #fff !important;
+    background-color: #809994!important;
+		border-radius: 0px;
+		border: none;
+		padding:3px 5px 3px 5px!important;
+}
+
+#meio .btn {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	border-top: 1.5px solid #fff!important;
+	position: relative;
+	top: 10px;
+	color: #fff !important;
+	background-color: #809994!important;
+	border-radius: 0px;
+	border: none;
+	padding:2.5px 5px 2.5px 5px!important;
+	box-shadow: 0 0 0 0;
+}
+
+#meio .btn:hover {
+    background-color: #d5c7ac !important;
+}
+
+#meio .btn span {
+    color: #fff;
+}
+
+.boxMenuDireito .right {
+	letter-spacing: 1px;
+	font-family: Calibri!important;
+	font-variant: small-caps!important;
+	font-size: 10px!important;
+	text-transform: lowercase!important;
+	position: relative!important;
+	bottom: 12px!important;
+}
+
+
+#meio > ul > li > div > ul.dropdown-menu > li >a {
+    color: #337ab7;
+}
+
+#meio .dropdown-menu > li > a:hover{
+    color: #fff !important;
+    background: #337ab7 !important;
+}
+
+/* LEMBRE-SE: Se for pegar alguma parte do código, por favor, peça diretamente para mim antes (@justdyoit)!!! */
+/* made in 11/07/18 by justdyoit*/

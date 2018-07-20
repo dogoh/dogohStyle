@@ -1,0 +1,397 @@
+<!DOCTYPE HTML>
+<html lang="pt">  <head>
+    <title>Modelo de CSS para Perfil - Spirit</title>
+    <link href="estrutura.css" rel="stylesheet" type="text/css" />
+    <link href="modelo.css" rel="stylesheet" type="text/css" media="screen, projection" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/global.min.js"></script>
+  </head>
+
+  <body>
+
+      <div class="navbar navbar-fixed-top">
+          <div>
+              <ul class="nav pull-left">
+                  <li id="menu-trigger"><div class="line-wrap"><div class="line top"></div><div class="line center"></div><div class="line bottom"></div></div></li>
+                  <li class="logomarca"><a href="http://socialspirit.com.br/" title="Spirit Rede Social de Fãs de Animes, Mangás, Doramas, Músicas, Livros e muito mais"><div class="icone-spirit"></div></a></li>
+                  <li class="titulo"><a href="https://socialspirit.com.br" title="Spirit Fanfics e Histórias">Spirit</a></li>
+              </ul>
+              <ul class="nav pull-right">
+                  <li class="icones" id="buscar"><a href="#" title="Busca"><div class="icone-busca"></div></a></li>
+                  <li class="icones" id="solicitacoes"><a href="https://socialspirit.com.br/solicitacoes" title="Solicitacoes de amizade"><div class="icone-solicitacoes"><span id="solicitacaoNum" class="badge">123</span></div></a></li>
+                  <li class="icones" id="notificacoes"><a href="https://socialspirit.com.br/notificacoes" title="Notificações"><div class="icone-notificacoes"><span id="notificacaoNum" class="badge hidden">0</span></div></a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><div class="icone-menu"></div></a>
+                      <ul class="dropdown-menu">
+                          <li id="denuncias"><a href="https://socialspirit.com.br/denuncias" title="Denúncias">Denúncias <span id="denunciaNum" class="badge badge-important hidden">0</span></a></li>
+                          <li><a href="https://socialspirit.com.br/suporte">Suporte</a></li>
+                          <li><a href="http://socialspirit.com.br/faq">Faq (Ajuda)</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="mx-menu">
+          <div class="home-menu-avatar">
+              <div class="header">
+                  <div class="avatar" id="home-usuario-avatar" style="background-image:url('img/common/avatar.png')"></div>
+                  <a href="https://socialspirit.com.br/editar/avatar" class="avatar-edit"></a>
+                  <a href="https://socialspirit.com.br/editar" class="gear"></a>
+                  <a href="http://socialspirit.com.br/" class="usuario" id="home-usuario-usuario">modelo</a>
+                  <div class="email" id="home-usuario-email">
+                      email@dominio.com
+                  </div>
+              </div>
+              <div class="footer">
+                  <div>
+                      <a href="" id="home-usuario-amigos-container">
+                          <div class="counter"><div id="home-usuario-amigos-num">123</div></div>
+                          <div class="descricao">amigos</div>
+                      </a>
+                      <a href="" id="home-usuario-grupos-container">
+                          <div class="counter"><div id="home-usuario-grupos-num">123</div></div>
+                          <div class="descricao">grupos</div>
+                      </a>
+                      <a href="" id="home-usuario-favoritos-container">
+                          <div class="counter"><div id="home-usuario-favoritos-num">123</div></div>
+                          <div class="descricao">favoritos</div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <ul>
+              <li><a href="https://socialspirit.com.br" class="inicio" title="Spirit Fanfics e Histórias">Início</a></li>
+              <li><a href="https://socialspirit.com.br/fanfics/" class="fanfics" title="Fanfics / Fanfictions">Descobrir / Fanfics</a></li>
+              <li><a href="https://socialspirit.com.br/forum/" class="forum" title="Fórum">F&oacute;rum</a></li>
+              <li><a href="https://socialspirit.com.br/grupos/" class="grupos" title="Grupos">Grupos</a></li>
+              <li><a href="https://socialspirit.com.br/personalizar/" class="personalizar" title="Personalizar">Personalizar</a></li>
+          </ul>
+          <ul class="simple">
+              <li><a href="https://socialspirit.com.br/atividades">Atividades / Timeline</a></li>
+              <li><a href="https://socialspirit.com.br/watch">Biblioteca / Observações</a></li>
+              <li><a href="https://socialspirit.com.br/adicionar">Adicionar Conteúdo</a></li>
+              <li><a href="https://socialspirit.com.br/gerenciar">Meus Conteúdos</a></li>
+              <li><a href="https://socialspirit.com.br/comentarios">Meus Comentários</a></li>
+              <li><a href="https://socialspirit.com.br/mensagens">Mensagens</a></li>
+              <li><a href="https://socialspirit.com.br/preferencias">Preferências</a></li>
+              <li><a href="https://socialspirit.com.br/lixeira">Lixeira</a></li>
+              <li><a href="https://socialspirit.com.br/bloqueados">Usuários Bloqueados</a></li>
+          </ul>
+          <ul class="simple">
+              <li><a href="https://socialspirit.com.br/logoff">Sair (logout)</a></li>
+          </ul>
+      </div>
+
+    <div id="fundo">
+
+    <div id="base">
+
+      <!-- parte superior do canal -->
+<header id="cima">
+<div id="logo"></div>
+    <nav id="nav">
+        <ul>
+            <li class="first"><a href="https://socialspirit.com.br/fanfics/recentes" title="Fanfics / Fanfictions Recentes">Recentes</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/destaques" title="Fanfics / Fanfictions em Destaque">Destaques</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/aulas" title="Aulas de Português">Aulas</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/betas" title="Betas Readers">Betas Readers</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/capistas" title="Capistas">Capistas</a></li>
+            <li><a href="https://socialspirit.com.br/fanfics/generos" title="Ver todos os Gêneros de Fanfics / Fanfictions">Gêneros</a></li>
+            <li><a href="https://socialspirit.com.br/fanfics/categorias" title="Ver todas as Categorias de Fanfics / Fanfictions">Categorias</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/crossovers" title="Ver todos os Crossovers de Fanfics">Crossovers</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/tags" title="Ver todas as Tags de Fanfics">Tags</a></li>
+            <li class="hidden-xs"><a href="https://socialspirit.com.br/fanfics/historico" title="Hist&oacute;rico">Hist&oacute;rico</a></li>
+            <li class="hidden-xs hidden-sm"><a href="https://socialspirit.com.br/fanfics/gerenciar" title="Minhas Fanfics">Minhas Fanfics</a></li>
+            <li class="visible-xs hidden-md hidden-lg hidden-sm"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Mais <strong class="caret"></strong></a><ul class="dropdown-menu nav-mobile-dropdown"></ul></li>
+            <li class="borda"></li>
+            <li class="last"><a href="https://socialspirit.com.br/fanfics/termos" class="btn btn-sm btn-primary" title="Enviar uma Fanfic / Fanfiction"><i class="fa fa-plus"></i><span class="hidden-xs hidden-sm"> Adicionar</span></a></li>
+        </ul>
+    </nav>
+</header>
+      <section id="meio">
+
+<ul id="secaoNav"><li itemscope="itemscope" itemtype="http://data-vocabulary.org/breadcrumb"><a href="http://socialspirit.com.br/" title="Spirit Rede Social de Fãs" itemprop="url"><span itemprop="title">Spirit</span></a> &gt;</li><li itemprop="child" itemscope="itemscope" itemtype="http://data-vocabulary.org/breadcrumb"><a href="http://socialspirit.com.br/membros" title="" itemprop="url"><span itemprop="title">Membros</span></a> &gt;</li><li itemprop="child" itemscope="itemscope" itemtype="http://data-vocabulary.org/breadcrumb"><span itemprop="title">~<a href="http://socialspirit.com.br/modelo">modelo</a></span></li></ul>
+     
+       <div class="boxConteudo" id="boxUsuario">
+        <div class="clearfix">
+            <div class="clearfix">
+                <div class="right btn-group" role="toolbar" style="margin-top:10px;">
+                    <a href="http://socialspirit.com.br/personalizar" class="btn btn-default btn-group" role="group"><i class="fa fa-wrench"></i> <span class="hidden-xs">Personalizar Perfil</span></a>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true"><i class="fa fa-user"></i> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://socialspirit.com.br/editar">Editar Perfil</a></li>
+                            <li><a href="https://socialspirit.com.br/editar/assinatura">Editar Assinatura</a></li>
+                            <li><a href="https://socialspirit.com.br/editar/avatar">Editar Avatar</a></li>
+                            <li><a href="https://socialspirit.com.br/editar/foto">Editar Foto</a></li>
+                            <li><a href="https://socialspirit.com.br/editar/cartao">Editar Cartão</a></li>
+                            <li><a href="https://socialspirit.com.br/editar/desktop">Editar Desktop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="tituloPrincipal">~<a href="http://socialspirit.com.br">modelo</a> </h2>
+        </div>
+        <div class="textoBg1 clearfix">
+            <div class="left avatar">
+                <div align="center" style="padding-top:5px;">
+                    <img id="cphTopo_imgUsuarioAvatar" src="img/common/avatar.png" alt="modelo" style="height:100px;width:100px;border-width:0px;" />
+                </div>
+                <div class="textoDescricao">
+                    <div align="center"><b></b></div>
+                </div>
+            </div>
+            <div class="left informacoes">
+                <b>Nome:</b> Modelo de CSS para Perfil<br />
+                <b>Status:</b> <span class="usuario"><b><span class="usuario"><b>Usuário</b></span></b></span><br />
+                <b>Sexo:</b> Masculino<br />
+                <b>Localização:</b> Indisponivel<br />
+                <b>Aniversário:</b> Indisponivel<br />
+                <b>Idade:</b> Indisponivel<br />
+                <b>Data de Registro:</b> em 18/01/2006 18:22
+            </div>
+            <div class="left hidden-xs hidden-sm" style="width:110px">
+                <div align="center" style="padding-top:5px;">
+                    <img id="cphTopo_imgUsuarioFoto" src="img/common/Spirit114x114.png" alt="modelo" style="border-width:0px;padding-top:5px;" />
+                </div>
+            </div>
+        </div>
+          <div class="baixo baixo-perfil">
+              <ul>
+                  <li><a href="" class="ativo" title="Perfil de modelo">Perfil</a></li>
+                  <li><a href="" title="Amigos de modelo">Amigos</a></li>
+                  <li><a href="" title="Atualizações de modelo">Atualizações</a></li>
+                  <li class="hidden-md hidden-lg hidden-sm"><a href="" title="Livro de visitas de modelo">Livro de visitas</a></li>
+                  <li><a href="" title="Fanfics / Fanfictions de modelo">Fanfics</a></li>
+                  <li><a href="" title="Favoritos de modelo">Favoritos</a></li>
+                  <li><a href="" title="Tópicos de modelo">Fórum</a></li>
+                  <li><a href="" title="Grupos de modelo">Grupos</a></li>
+                  <li><a href="" title="Jornais de modelo">Jornais</a></li>
+                  <li><a href="" title="Styles de modelo">Styles</a></li>
+              </ul>
+          </div>
+        </div>
+
+        <!-- conteúdo do canal -->
+        <section class="clearfix">
+        <section class="boxConteudo">
+
+          <h1 class="tituloPrincipal">Jornal: <a href="" class="ativo">Modelo de CSS para Perfil</a></h1>
+
+          <table width="100%">
+            <tr>
+              <td class="textoBg1">
+                <span><b>Postado em 15/01/2011&nbsp;às&nbsp;15:27</b></span><br />
+                <br />
+<div id="quote">
+Exemplo de quote<br/>
+<br/>
+Esse bloco serve para ver como vai ficar a citação o quote
+</div><br/>
+
+Comunidade Spirit<br/>
+Modelo de Perfil Spirit<br/>
+<br/>
+O arquivo estrutura.css e apenas para visualizar e validar o perfil esse arquivo não pode ser editado pelo usuário<br/>
+<br/>
+O unico arquivo editavel e o modelo.css<br/>
+<br/>
+Para criar um modelo<br/>
+<br/>
+Edite as imagens da pasta img<br/>
+A Pasta img/common contém arquivos não editaveis, apenas para poder visualizar o modelo<br/>
+Edite o css modelo.css<br/>
+Envie as imagens para algum servidor, ex www.imgur.com<br/>
+Edite o css modelo.css e informe a url certa das imagens<br/>
+Entre no site vá em personalizar na comunidade, copie o conteudo do modelo.css e cole no campo de texto lá<br/>
+Escolha um nome e clique em adicionar<br/>
+<br/>
+Qualquer dúvida acesse o fórum styles<br/>
+<a href="http://socialspirit.com.br/forum/canais/styles" class="link">http://socialspirit.com.br/forum/canais/styles</a><br/>
+<br/>
+Spirit<br/>
+<a href="http://socialspirit.com.br" class="link">http://socialspirit.com.br</a><br/>
+                <br />
+                <span><a href="">Permalink</a> <a href="">Coment&aacute;rios</a> (0)</span>
+
+              </td>
+            </tr>
+          </table>
+          <div class="baixo">
+              <i class="fa fa-caret-right"></i> <a href="">Veja todos os jornais deste usu&aacute;rio</a>
+          </div>
+<br/>
+            <div class="paginacao">
+                <div class="itens clearfix">
+                    <div class="anterior">
+                        <a href="" class="btn btn-default"><i class="fa fa-caret-left"></i> Anterior</a>
+                    </div>
+                    <div class="numeros hidden-xs">
+                        <a href="" class="btn btn-default">1</a> <div class="btn btn-default active">
+                            2
+                        </div> <a href="" class="btn btn-default">3</a> <div class="btn btn-default">...</div> <a href="" class="btn btn-default">12</a> <a href="" class="btn btn-default">11</a>
+                    </div>
+                    <div class="proximo">
+                        <a href="" class="btn btn-default">Próxima <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+<br/>
+
+        <br />
+          <h1 class="tituloPrincipal">Dados do Usuário</h1>
+          <p class="textoBg1">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+          <p class="textoBg2">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+          <p class="textoBg1">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+          <p class="textoBg2">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+          <p class="textoBg1">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+          <p class="textoBg2">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+          <p class="textoBg1">
+            <span>&rsaquo;</span> <b>Item:</b> <a href="http://socialspirit.com.br" class="link" rel="nofollow" target="_blank">http://socialspirit.com.br</a>
+          </p>
+
+        <br />
+
+        <!-- /conteudo -->
+        </section>
+
+        <aside class="sidebar hidden-xs hidden-tablet">
+
+            <div class="boxMenuDireito">
+                <h4 class="tituloMenuDireito">Meus Amigos (123)</h4>
+                <div id="amigos" class="textoMenuDireito">
+                    <div class="clearfix">
+                        <div class="left">
+                            <input type="text" name="amigoQuery" class="amigoQuery" />
+                        </div>
+                        <div class="right">
+                            <button class="btn btn-default amigoBuscar">Buscar</button>
+                        </div>
+                    </div>
+                    <div id="divAmigosScroll" class="scroll">
+                        <div id="divAmigosResultado">
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                            <div class="boxUsuario"><a href="" title="~usuário"><img src="img/common/avatar.png" alt="~usuario"></a><a href="" title="~usuário">~usuário</a></div>
+                    </div>
+                </div>
+            </div>
+
+         <div class="boxMenuDireito">
+           <p class="tituloMenuDireito">Interesses</p>
+           <div class="textoMenuDireito">
+           <b>Anime</b><br />
+           <b>J-Music</b><br />
+
+           <b>Mangá</b><br />
+           <b>RPG</b><br />
+           <b>Shows</b><br />
+           <b>Viagens</b><br />
+           <b>Video-Game</b><br />
+         </div>
+
+         </div>
+
+
+        </aside>
+
+        </section>
+      <!-- /meio -->
+      </section>
+
+
+   <!-- /base -->
+    </div>
+
+    <!-- /fundo -->
+    </div>
+
+      <footer>
+          <div>
+              <div class="logo">
+                  <img src="img/common/logoRodape.png" alt="Spirit" />
+                  <div>
+                      Spirit Fanfics e Histórias é uma plataforma para autopublicação de Fanfics e Histórias. Solte sua imaginação, escreva suas histórias, tenha sua própria página personalizada, compartilhe idéias, faça amizades.
+                  </div>
+                  <div>
+                      <a target="_blank" class="google-play-badge" href="https://play.google.com/store/apps/details?id=br.com.socialspirit.android">Disponível no Google Play</a>
+                      <a target="_blank" class="app-store-badge" href="https://itunes.apple.com/app/spirit-fanfics-e-historias/id1052321804?mt=8">Baixar na App Store</a>
+                  </div>
+              </div>
+              <div class="links bloco1">
+                  <ul>
+                      <li><a href="https://www.facebook.com/Spirit.OficialBR" target="_blank" title="Facebook"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+                      <li><a href="https://www.instagram.com/spirit.oficial" target="_blank" title="Instagram"><i class="fa fa-instagram"></i> Instagram</a></li>
+                      <li><a href="https://twitter.com/spiritoficial" target="_blank" title="Twitter"><i class="fa fa-twitter"></i> Twitter</a></li>
+                      <li><a href="https://plus.google.com/105787802329591128570" target="_blank" title="Google Plus"><i class="fa fa-google-plus-square"></i> Google Plus</a></li>
+                  </ul>
+              </div>
+              <div class="links bloco2">
+                  <ul>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/animes">Animes & Mangás</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/bandas-musicos">Bandas & Músicos</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/cartoons">Cartoons</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/celebridades">Celebridades</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/filmes">Filmes</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/games">Games</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/livros">Livros</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/quadrinhos">Quadrinhos</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/series-tv">Séries TV</a></li>
+                      <li><a href="https://socialspirit.com.br/fanfics/categorias/originais">Originais</a></li>
+                  </ul>
+              </div>
+              <div class="links bloco3">
+                  <ul>
+                      <li><a href="https://socialspirit.com.br/membros">Membros</a></li>
+                      <li><a href="https://socialspirit.com.br/jornais">Jornais</a></li>
+                      <li><a href="https://socialspirit.com.br/noticias">Notícias</a></li>
+                      <li><a href="https://socialspirit.com.br/feeds">Feed RSS</a></li>
+                      <li><a href="https://socialspirit.com.br/contato">Fale Conosco</a></li>
+                  </ul>
+              </div>
+              <div class="links bloco4">
+                  <ul>
+                      <li><a href="https://socialspirit.com.br/faq">Ajuda / Faq</a></li>
+                      <li><a href="https://socialspirit.com.br/equipe">Equipe</a></li>
+                      <li><a href="https://socialspirit.com.br/embaixadores">Embaixadores</a></li>
+                      <li><a href="https://socialspirit.com.br/informacoes">Informações</a></li>
+                      <li><a href="https://socialspirit.com.br/informacoes/politica-de-privacidade">Política de Privacidade</a></li>
+                      <li><a href="https://socialspirit.com.br/informacoes/regras-de-postagem">Regras de Postagem</a></li>
+                      <li><a href="https://socialspirit.com.br/sobre">Sobre</a></li>
+                      <li><a href="https://socialspirit.com.br/suporte">Suporte</a></li>
+                      <li><a href="https://socialspirit.com.br/termos">Termos de Uso</a></li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
+  </body>
+</html>

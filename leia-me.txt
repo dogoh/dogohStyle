@@ -1,0 +1,22 @@
+Spirit Fanfics e Histórias
+Modelo de Perfil Spirit
+
+O arquivo estrutura.css e apenas para visualizar e validar o perfil esse arquivo não pode ser editado pelo usuário
+
+O unico arquivo editavel e o modelo.css
+
+Para criar um modelo
+
+Edite as imagens da pasta img
+A Pasta img/common contém arquivos não editaveis, apenas para poder visualizar o modelo
+Edite o css modelo.css
+Envie as imagens para algum servidor, ex www.imgur.com
+Edite o css modelo.css e informe a url certa das imagens
+Entre no site vá em personalizar no Spirit, copie o conteudo do modelo.css e cole no campo de texto lá
+Escolha um nome e clique em adicionar
+
+Qualquer dúvida acesse o fórum styles
+http://socialspirit.com.br/forum/canais/styles
+
+Spirit Fanfics e Histórias
+http://socialspirit.br
